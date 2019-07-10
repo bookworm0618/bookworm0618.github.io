@@ -63,8 +63,8 @@ footer {
   font-family: 'Open Sans', sans-serif;
   background-color: #cccccc;
   text-align: right;
-  padding: 1.5em;
-  padding-right: 2em;
+  /* padding: 1em;*/
+  padding-right: 1em;
 }
 
 a {
@@ -117,15 +117,20 @@ img {
   width: 27em;
 }
 
-img:hover {
+/* img:hover {
   margin: 1em;
   height: 27em;
   width: 30em;
-}
+} */
 
 .photo-gallery {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.logo {
+  height: 3em;
+  width: 3em;
 }
